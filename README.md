@@ -12,7 +12,7 @@ flavors of Indian cuisine and learn how to recreate traditional recipes at home.
 3. W3school
 4. Stackoverflow
 
-#Languages Used
+# Languages Used
 1. html
 2. javascript
 3. css
