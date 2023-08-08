@@ -1,0 +1,86 @@
+body{
+    font-family: 'courier new', sans-serif,Helvetica;
+
+  text-align: center;
+  font-size: 140%;
+  background-color: #000000;
+  color: #f6f3f3;
+}
+img{
+  border-radius: 5%;
+}
+.radio-inputs {
+    font-family: 'Helvetica';
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+    border-radius: 0.5rem;
+    background-color: #edf1f2;
+    box-sizing: border-box;
+    box-shadow: 0 0 0px 1px rgba(85, 60, 60, 0.06);
+    padding: 0.25rem;
+    width: 700px;
+    font-size: 25px;
+  }
+  
+  .radio-inputs .radio {
+    flex: 1 15 auto;
+    text-align: center;
+  }
+  
+  .radio-inputs .radio input {
+    display: none;
+  }
+  
+  .radio-inputs .radio .name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: none;
+    padding: .5rem 0;
+    color: rgb(0, 5, 11);
+    
+    transition: all .15s ease-in-out;
+  }
+  /* .radio-inputs .radio input:checked + .name {
+    background-color: #76ecc0;
+    font-weight: 600;
+  } */
+  .name:hover{
+    background-color: rgb(43, 206, 206);
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+  }
+  a:link {
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration:none;
+  }
+  
+  a:visited {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+  }
+  
+  a:active {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+  }
+#fish{
+  width:30%;
+  height:50%;
+}
+#chic{
+  width:50%;
+  height:50%;
+}

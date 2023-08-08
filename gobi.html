@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gobi manchurian</title>
+    <link rel="stylesheet" href="web-style1.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+        </script>
+</head>
+
+<body>
+    <header>
+        <nav style="padding-bottom:50px" ;>
+            <div class="radio-inputs">
+                <label class="radio">
+                    <input type="radio" name="radio" checked="">
+                    <span class="name"><a href="explore.htm">Home</a></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" name="radio">
+                    <span class="name"><a href="main.html">About Us</a></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" name="radio">
+                    <span class="name"><a href="#f1">Contact us</a></span>
+                </label>
+            </div>
+        </nav>
+    </header>
+    <p>
+    <pre>
+<h1 id="food">GOBI MANCHURIAN</h1>
+<center><img id="image" src="gobi.jpg"><br>
+<button id="show">Show image</button>
+<button id="hide">Hide image</button><br>
+    <script>
+        $(document).ready(function () {
+            $("#image").hide();
+            $("#hide").attr('disabled', true);
+            $("#hide").click(function () {
+                $("#image").hide();
+                $("#hide").attr('disabled', true);
+                $("#show").attr('disabled', false);
+
+            });
+            $("#show").click(function () {
+                $("#image").show();
+                $("#hide").attr('disabled', false);
+                $("#show").attr('disabled', true);
+            });
+        });
+    </script>
+Gobi Manchurian is a popular Indo-Chinese dish that consists of crispy fried 
+cauliflower florets tossed in a spicy, tangy sauce. 
+Here's a recipe to make it at home:
+</center>
+<pre id="pre1">
+<h2>Ingredients:</h2>
+
+-1 head cauliflower, cut into small florets
+-1/2 cup all-purpose flour
+-1/4 cup cornstarch
+-1 tsp ginger-garlic paste
+-1 tsp soy sauce
+-1/2 tsp red chili powder
+-Salt to taste
+-Oil for frying
+-1 tbsp oil
+-1 onion, chopped
+-1 capsicum, chopped
+-2 green chilies, chopped
+-1 tsp ginger-garlic paste
+-2 tbsp soy sauce
+-1 tbsp tomato ketchup
+-1 tbsp vinegar
+-1 tsp sugar
+-1/2 tsp red chili powder
+-1 tbsp cornstarch dissolved in 1/4 cup water
+-Salt to taste
+-Chopped spring onions for garnish
+
+</pre>
+    <pre id="pre2">
+<h2>Instructions:</h2>
+In a mixing bowl, combine all-purpose flour, cornstarch, ginger-garlic paste, soy sauce, 
+red chili powder, and salt. Add enough water to make a thick batter.
+Dip cauliflower florets in the batter and coat well.
+Heat oil in a deep pan and fry the cauliflower florets until golden brown.
+Remove and place on a paper towel to absorb any excess oil.
+In a separate pan, heat oil and sauté onion, capsicum, green chilies, and ginger-garlic 
+paste until the onions are translucent.
+Add soy sauce, tomato ketchup, vinegar, sugar, red chili powder, and salt to the pan. Mix well.
+Add the cornstarch-water mixture to the pan and stir until the sauce thickens.
+Add the fried cauliflower florets to the pan and toss until the florets are coated in the sauce.
+Garnish with chopped spring onions and serve hot.
+Your delicious Gobi Manchurian is now ready to be enjoyed!
+</pre>
+    Note: The recipe can be adjusted according to personal preferences, such as adding
+    more or less spices or adjusting the cooking time.
+    </p>
+    </section>
+
+    <h2 id="f1"> Contact Us<br><br>flavours@gmail.com
+        <img src="tweet.png" height=20px width=20px> @flavoursofindia
+        <img src="insta.jpg" height=20px width=20px> @flavours</p>
+    </h2>
+    <h2>&copy; 2023 Flavours.com</h2>
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+body{
+  background-color:rgb(0, 7, 19);
+  background-image: url(main.jpg); 
+  /* background-image : url("malabar.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed; */
+}
+:root {
+  --left-bg-color: rgba(32, 32, 59, 0.7);
+  --right-bg-color: rgba(43, 43, 43, 0.8);
+  --left-btn-hover-color: rgb(84, 69, 183);
+  --right-btn-hover-color: rgb(84, 69, 183);
+  --hover-width: 75%;
+  --other-width: 25%;
+  --speed: 1000ms;
+}
+#white{
+  color:white;
+}
+#some{
+  
+  background-size: cover;
+  background-repeat:no-repeat ; 
+  background-attachment: fixed ;
+  color:white;
+}
+h1{
+    font-family: 'courier new', sans-serif,Helvetica;
+
+  text-align: center;
+  font-size: 450%;
+  background-color: #000000;
+  color: #f6f3f3;
+}
+h2{
+  font-family: 'courier new', sans-serif,Helvetica;
+  text-align: center;
+  font-size: 300%;
+  background-color: #bce6ed;
+}
+#food{
+  font-family: 'courier new', sans-serif,Helvetica;
+  text-align: center;
+  font-size: 300%;
+  background-color:cornflowerblue;
+
+}
+pre{
+  
+  font-family: 'courier new', sans-serif,Helvetica;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 20px;
+  
+}
+#pre1,#f1{
+  background-color: #82daea;
+  font-size: 20px;
+}
+#pre2{
+  background-color: #9dcdd5;
+  font-size: 20px;
+}
+#explore{
+  font-size: large;
+}
+.split.right .btn1:hover{
+  background-color: var(--right-btn-hover-color);
+  border-color: var(--right-btn-hover-color);
+}
+.split.right .btn:hover{
+  background-color: var(--right-btn-hover-color);
+  border-color: var(--right-btn-hover-color);
+}
+.btn {
+  position: absolute;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  left: 50%;
+  top: 40%;
+  transform: translateX(-100%);
+  text-decoration: none;
+  background-color: #a87171;
+  color: #000000;
+  border: #050244 solid 0.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 15rem;
+  padding: 1.5rem;
+}
+.btn1{
+  position: absolute;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  left: 50%;
+  top: 40%;
+  transform: translateX(10%);
+  text-decoration: none;
+  background-color: #a87171;
+  color: #000000;
+  border: #050244 solid 0.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 15rem;
+  padding: 1.5rem;
+}
+p{
+  
+  color: rgb(16, 132, 233);
+  font-size: 30px;
+  
+}
+.radio-inputs {
+  font-family: 'Helvetica';
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  
+  border-radius: 0.5rem;
+  background-color: #edf1f2;
+  box-sizing: border-box;
+  box-shadow: 0 0 0px 1px rgba(85, 60, 60, 0.06);
+  padding: 0.25rem;
+  width: 700px;
+  font-size: 25px;
+}
+
+.radio-inputs .radio {
+  flex: 1 15 auto;
+  text-align: center;
+}
+
+.radio-inputs .radio input {
+  display: none;
+}
+
+.radio-inputs .radio .name {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: none;
+  padding: .5rem 0;
+  color: rgb(0, 5, 11);
+  
+  transition: all .15s ease-in-out;
+}
+/* .radio-inputs .radio input:checked + .name {
+  background-color: #76ecc0;
+  font-weight: 600;
+} */
+.name:hover{
+  background-color: rgb(43, 206, 206);
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+a:link {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration:none;
+}
+
+a:visited {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+
+a:active {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+
+
